@@ -15,6 +15,7 @@
 		F527FD5E2BF628F600BD5B14 /* LearningSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527FD5D2BF628F600BD5B14 /* LearningSwiftUIUITests.swift */; };
 		F527FD602BF628F600BD5B14 /* LearningSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527FD5F2BF628F600BD5B14 /* LearningSwiftUIUITestsLaunchTests.swift */; };
 		F564341B2BFE6F36004DACBC /* Task#1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564341A2BFE6F36004DACBC /* Task#1.swift */; };
+		F564341E2C00AF0D004DACBC /* Task#2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564341D2C00AF0D004DACBC /* Task#2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		F527FD5D2BF628F600BD5B14 /* LearningSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUIUITests.swift; sourceTree = "<group>"; };
 		F527FD5F2BF628F600BD5B14 /* LearningSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F564341A2BFE6F36004DACBC /* Task#1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task#1.swift"; sourceTree = "<group>"; };
+		F564341D2C00AF0D004DACBC /* Task#2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task#2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			children = (
 				F527FD442BF628F400BD5B14 /* ContentView.swift */,
 				F564341A2BFE6F36004DACBC /* Task#1.swift */,
+				F564341D2C00AF0D004DACBC /* Task#2.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				F527FD452BF628F400BD5B14 /* ContentView.swift in Sources */,
 				F564341B2BFE6F36004DACBC /* Task#1.swift in Sources */,
 				F527FD432BF628F400BD5B14 /* LearningSwiftUIApp.swift in Sources */,
+				F564341E2C00AF0D004DACBC /* Task#2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
