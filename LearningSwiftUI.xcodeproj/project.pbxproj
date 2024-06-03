@@ -22,6 +22,8 @@
 		F5E3D4BB2C088ADE00EFD469 /* NavigationViewAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D4BA2C088ADE00EFD469 /* NavigationViewAdvanced.swift */; };
 		F5E3D4BD2C088E3900EFD469 /* CounterAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D4BC2C088E3900EFD469 /* CounterAppView.swift */; };
 		F5E3D5122C09F91700EFD469 /* ControlGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */; };
+		F5E3D5142C0E2F5700EFD469 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5132C0E2F5700EFD469 /* Buttons.swift */; };
+		F5E3D5162C0E37DE00EFD469 /* SimpleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5152C0E37DE00EFD469 /* SimpleChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		F5E3D4BA2C088ADE00EFD469 /* NavigationViewAdvanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewAdvanced.swift; sourceTree = "<group>"; };
 		F5E3D4BC2C088E3900EFD469 /* CounterAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAppView.swift; sourceTree = "<group>"; };
 		F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupView.swift; sourceTree = "<group>"; };
+		F5E3D5132C0E2F5700EFD469 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		F5E3D5152C0E37DE00EFD469 /* SimpleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 				F5E3D4BA2C088ADE00EFD469 /* NavigationViewAdvanced.swift */,
 				F5E3D4BC2C088E3900EFD469 /* CounterAppView.swift */,
 				F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */,
+				F5E3D5132C0E2F5700EFD469 /* Buttons.swift */,
+				F5E3D5152C0E37DE00EFD469 /* SimpleChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -292,9 +298,11 @@
 				F5E3D4BB2C088ADE00EFD469 /* NavigationViewAdvanced.swift in Sources */,
 				F56434222C029AB5004DACBC /* ScrollViewReaderAdvanced.swift in Sources */,
 				F527FD452BF628F400BD5B14 /* ContentView.swift in Sources */,
+				F5E3D5142C0E2F5700EFD469 /* Buttons.swift in Sources */,
 				F564341B2BFE6F36004DACBC /* Task#1.swift in Sources */,
 				F5E3D4BD2C088E3900EFD469 /* CounterAppView.swift in Sources */,
 				F527FD432BF628F400BD5B14 /* LearningSwiftUIApp.swift in Sources */,
+				F5E3D5162C0E37DE00EFD469 /* SimpleChartView.swift in Sources */,
 				F564341E2C00AF0D004DACBC /* Task#2.swift in Sources */,
 				F56434202C029678004DACBC /* ScrollViewReaderToItem.swift in Sources */,
 				F5E3D5122C09F91700EFD469 /* ControlGroupView.swift in Sources */,
