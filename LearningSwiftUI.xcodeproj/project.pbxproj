@@ -19,6 +19,9 @@
 		F56434202C029678004DACBC /* ScrollViewReaderToItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564341F2C029678004DACBC /* ScrollViewReaderToItem.swift */; };
 		F56434222C029AB5004DACBC /* ScrollViewReaderAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56434212C029AB5004DACBC /* ScrollViewReaderAdvanced.swift */; };
 		F56434242C048CE3004DACBC /* ScrollViewReaderAdvanced2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56434232C048CE3004DACBC /* ScrollViewReaderAdvanced2.swift */; };
+		F5E3D4BB2C088ADE00EFD469 /* NavigationViewAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D4BA2C088ADE00EFD469 /* NavigationViewAdvanced.swift */; };
+		F5E3D4BD2C088E3900EFD469 /* CounterAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D4BC2C088E3900EFD469 /* CounterAppView.swift */; };
+		F5E3D5122C09F91700EFD469 /* ControlGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		F564341F2C029678004DACBC /* ScrollViewReaderToItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderToItem.swift; sourceTree = "<group>"; };
 		F56434212C029AB5004DACBC /* ScrollViewReaderAdvanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderAdvanced.swift; sourceTree = "<group>"; };
 		F56434232C048CE3004DACBC /* ScrollViewReaderAdvanced2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderAdvanced2.swift; sourceTree = "<group>"; };
+		F5E3D4BA2C088ADE00EFD469 /* NavigationViewAdvanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewAdvanced.swift; sourceTree = "<group>"; };
+		F5E3D4BC2C088E3900EFD469 /* CounterAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAppView.swift; sourceTree = "<group>"; };
+		F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +152,9 @@
 				F564341F2C029678004DACBC /* ScrollViewReaderToItem.swift */,
 				F56434212C029AB5004DACBC /* ScrollViewReaderAdvanced.swift */,
 				F56434232C048CE3004DACBC /* ScrollViewReaderAdvanced2.swift */,
+				F5E3D4BA2C088ADE00EFD469 /* NavigationViewAdvanced.swift */,
+				F5E3D4BC2C088E3900EFD469 /* CounterAppView.swift */,
+				F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -280,12 +289,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E3D4BB2C088ADE00EFD469 /* NavigationViewAdvanced.swift in Sources */,
 				F56434222C029AB5004DACBC /* ScrollViewReaderAdvanced.swift in Sources */,
 				F527FD452BF628F400BD5B14 /* ContentView.swift in Sources */,
 				F564341B2BFE6F36004DACBC /* Task#1.swift in Sources */,
+				F5E3D4BD2C088E3900EFD469 /* CounterAppView.swift in Sources */,
 				F527FD432BF628F400BD5B14 /* LearningSwiftUIApp.swift in Sources */,
 				F564341E2C00AF0D004DACBC /* Task#2.swift in Sources */,
 				F56434202C029678004DACBC /* ScrollViewReaderToItem.swift in Sources */,
+				F5E3D5122C09F91700EFD469 /* ControlGroupView.swift in Sources */,
 				F56434242C048CE3004DACBC /* ScrollViewReaderAdvanced2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

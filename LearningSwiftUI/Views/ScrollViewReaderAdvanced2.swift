@@ -30,8 +30,8 @@ struct ScrollViewReaderAdvanced2: View {
                     Button (action: {
                         if let index = inputValue, (1..<300).contains(index){
                             withAnimation{
-                                proxy.scrollTo(inputValue, anchor: .center)
                             }
+                                proxy.scrollTo(inputValue, anchor: .center)
                         }
                     })
                     {
