@@ -14,6 +14,8 @@
 		F527FD542BF628F600BD5B14 /* LearningSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527FD532BF628F600BD5B14 /* LearningSwiftUITests.swift */; };
 		F527FD5E2BF628F600BD5B14 /* LearningSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527FD5D2BF628F600BD5B14 /* LearningSwiftUIUITests.swift */; };
 		F527FD602BF628F600BD5B14 /* LearningSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527FD5F2BF628F600BD5B14 /* LearningSwiftUIUITestsLaunchTests.swift */; };
+		F53CDD362C11CC36002259B3 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53CDD352C11CC36002259B3 /* ColorPickerView.swift */; };
+		F53CDD382C11CD56002259B3 /* DataPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53CDD372C11CD56002259B3 /* DataPickerView.swift */; };
 		F564341B2BFE6F36004DACBC /* Task#1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564341A2BFE6F36004DACBC /* Task#1.swift */; };
 		F564341E2C00AF0D004DACBC /* Task#2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564341D2C00AF0D004DACBC /* Task#2.swift */; };
 		F56434202C029678004DACBC /* ScrollViewReaderToItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564341F2C029678004DACBC /* ScrollViewReaderToItem.swift */; };
@@ -24,6 +26,7 @@
 		F5E3D5122C09F91700EFD469 /* ControlGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */; };
 		F5E3D5142C0E2F5700EFD469 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5132C0E2F5700EFD469 /* Buttons.swift */; };
 		F5E3D5162C0E37DE00EFD469 /* SimpleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5152C0E37DE00EFD469 /* SimpleChartView.swift */; };
+		F5E3D5182C0E695500EFD469 /* AdvancedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5172C0E695500EFD469 /* AdvancedChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,8 @@
 		F527FD592BF628F600BD5B14 /* LearningSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F527FD5D2BF628F600BD5B14 /* LearningSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUIUITests.swift; sourceTree = "<group>"; };
 		F527FD5F2BF628F600BD5B14 /* LearningSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F53CDD352C11CC36002259B3 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		F53CDD372C11CD56002259B3 /* DataPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPickerView.swift; sourceTree = "<group>"; };
 		F564341A2BFE6F36004DACBC /* Task#1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task#1.swift"; sourceTree = "<group>"; };
 		F564341D2C00AF0D004DACBC /* Task#2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task#2.swift"; sourceTree = "<group>"; };
 		F564341F2C029678004DACBC /* ScrollViewReaderToItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderToItem.swift; sourceTree = "<group>"; };
@@ -64,6 +69,7 @@
 		F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupView.swift; sourceTree = "<group>"; };
 		F5E3D5132C0E2F5700EFD469 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		F5E3D5152C0E37DE00EFD469 /* SimpleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleChartView.swift; sourceTree = "<group>"; };
+		F5E3D5172C0E695500EFD469 /* AdvancedChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +167,9 @@
 				F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */,
 				F5E3D5132C0E2F5700EFD469 /* Buttons.swift */,
 				F5E3D5152C0E37DE00EFD469 /* SimpleChartView.swift */,
+				F5E3D5172C0E695500EFD469 /* AdvancedChartView.swift */,
+				F53CDD352C11CC36002259B3 /* ColorPickerView.swift */,
+				F53CDD372C11CD56002259B3 /* DataPickerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,10 +308,13 @@
 				F56434222C029AB5004DACBC /* ScrollViewReaderAdvanced.swift in Sources */,
 				F527FD452BF628F400BD5B14 /* ContentView.swift in Sources */,
 				F5E3D5142C0E2F5700EFD469 /* Buttons.swift in Sources */,
+				F53CDD382C11CD56002259B3 /* DataPickerView.swift in Sources */,
 				F564341B2BFE6F36004DACBC /* Task#1.swift in Sources */,
+				F5E3D5182C0E695500EFD469 /* AdvancedChartView.swift in Sources */,
 				F5E3D4BD2C088E3900EFD469 /* CounterAppView.swift in Sources */,
 				F527FD432BF628F400BD5B14 /* LearningSwiftUIApp.swift in Sources */,
 				F5E3D5162C0E37DE00EFD469 /* SimpleChartView.swift in Sources */,
+				F53CDD362C11CC36002259B3 /* ColorPickerView.swift in Sources */,
 				F564341E2C00AF0D004DACBC /* Task#2.swift in Sources */,
 				F56434202C029678004DACBC /* ScrollViewReaderToItem.swift in Sources */,
 				F5E3D5122C09F91700EFD469 /* ControlGroupView.swift in Sources */,
