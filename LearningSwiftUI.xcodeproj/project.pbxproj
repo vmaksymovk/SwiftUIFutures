@@ -21,6 +21,10 @@
 		F56434202C029678004DACBC /* ScrollViewReaderToItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564341F2C029678004DACBC /* ScrollViewReaderToItem.swift */; };
 		F56434222C029AB5004DACBC /* ScrollViewReaderAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56434212C029AB5004DACBC /* ScrollViewReaderAdvanced.swift */; };
 		F56434242C048CE3004DACBC /* ScrollViewReaderAdvanced2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56434232C048CE3004DACBC /* ScrollViewReaderAdvanced2.swift */; };
+		F5BC9FE82C1B1E7F003D250B /* ContentViewBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC9FE72C1B1E7F003D250B /* ContentViewBinding.swift */; };
+		F5BC9FEA2C1B1E8B003D250B /* BindingView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC9FE92C1B1E8B003D250B /* BindingView1.swift */; };
+		F5BC9FEC2C1B1E98003D250B /* BindingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC9FEB2C1B1E98003D250B /* BindingView2.swift */; };
+		F5BC9FEF2C1B1FF5003D250B /* StateViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC9FEE2C1B1FF5003D250B /* StateViewMain.swift */; };
 		F5E3D4BB2C088ADE00EFD469 /* NavigationViewAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D4BA2C088ADE00EFD469 /* NavigationViewAdvanced.swift */; };
 		F5E3D4BD2C088E3900EFD469 /* CounterAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D4BC2C088E3900EFD469 /* CounterAppView.swift */; };
 		F5E3D5122C09F91700EFD469 /* ControlGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */; };
@@ -64,6 +68,10 @@
 		F564341F2C029678004DACBC /* ScrollViewReaderToItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderToItem.swift; sourceTree = "<group>"; };
 		F56434212C029AB5004DACBC /* ScrollViewReaderAdvanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderAdvanced.swift; sourceTree = "<group>"; };
 		F56434232C048CE3004DACBC /* ScrollViewReaderAdvanced2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderAdvanced2.swift; sourceTree = "<group>"; };
+		F5BC9FE72C1B1E7F003D250B /* ContentViewBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewBinding.swift; sourceTree = "<group>"; };
+		F5BC9FE92C1B1E8B003D250B /* BindingView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView1.swift; sourceTree = "<group>"; };
+		F5BC9FEB2C1B1E98003D250B /* BindingView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView2.swift; sourceTree = "<group>"; };
+		F5BC9FEE2C1B1FF5003D250B /* StateViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewMain.swift; sourceTree = "<group>"; };
 		F5E3D4BA2C088ADE00EFD469 /* NavigationViewAdvanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewAdvanced.swift; sourceTree = "<group>"; };
 		F5E3D4BC2C088E3900EFD469 /* CounterAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAppView.swift; sourceTree = "<group>"; };
 		F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupView.swift; sourceTree = "<group>"; };
@@ -170,8 +178,20 @@
 				F5E3D5172C0E695500EFD469 /* AdvancedChartView.swift */,
 				F53CDD352C11CC36002259B3 /* ColorPickerView.swift */,
 				F53CDD372C11CD56002259B3 /* DataPickerView.swift */,
+				F5BC9FED2C1B1E9B003D250B /* BindingViews */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F5BC9FED2C1B1E9B003D250B /* BindingViews */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC9FE72C1B1E7F003D250B /* ContentViewBinding.swift */,
+				F5BC9FE92C1B1E8B003D250B /* BindingView1.swift */,
+				F5BC9FEB2C1B1E98003D250B /* BindingView2.swift */,
+				F5BC9FEE2C1B1FF5003D250B /* StateViewMain.swift */,
+			);
+			path = BindingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,10 +326,14 @@
 			files = (
 				F5E3D4BB2C088ADE00EFD469 /* NavigationViewAdvanced.swift in Sources */,
 				F56434222C029AB5004DACBC /* ScrollViewReaderAdvanced.swift in Sources */,
+				F5BC9FEA2C1B1E8B003D250B /* BindingView1.swift in Sources */,
+				F5BC9FEC2C1B1E98003D250B /* BindingView2.swift in Sources */,
+				F5BC9FEF2C1B1FF5003D250B /* StateViewMain.swift in Sources */,
 				F527FD452BF628F400BD5B14 /* ContentView.swift in Sources */,
 				F5E3D5142C0E2F5700EFD469 /* Buttons.swift in Sources */,
 				F53CDD382C11CD56002259B3 /* DataPickerView.swift in Sources */,
 				F564341B2BFE6F36004DACBC /* Task#1.swift in Sources */,
+				F5BC9FE82C1B1E7F003D250B /* ContentViewBinding.swift in Sources */,
 				F5E3D5182C0E695500EFD469 /* AdvancedChartView.swift in Sources */,
 				F5E3D4BD2C088E3900EFD469 /* CounterAppView.swift in Sources */,
 				F527FD432BF628F400BD5B14 /* LearningSwiftUIApp.swift in Sources */,

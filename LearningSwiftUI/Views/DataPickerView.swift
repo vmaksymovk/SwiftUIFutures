@@ -1,18 +1,25 @@
-//
-//  DataPickerView.swift
-//  LearningSwiftUI
-//
-//  Created by Влад on 6/6/24.
-//
 
 import SwiftUI
 
 struct DataPickerView: View {
+    @Binding var date : Date
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            DatePicker("Date Picker", selection: $date, displayedComponents: .date)
+                .datePickerStyle(.graphical)
+                .tint(.green)
+                .padding()
+                .background(
+                    RoundedRectangle(cornerRadius: 25)
+                        .fill(.green)
+                        .opacity(0.25)
+                        .shadow(radius: 10)
+                )
+        }
+        Text(date.description)
     }
 }
 
 #Preview {
-    DataPickerView()
+    DataPickerView(date: .constant(Date()))
 }
