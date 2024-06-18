@@ -25,6 +25,13 @@
 		F5BC9FEA2C1B1E8B003D250B /* BindingView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC9FE92C1B1E8B003D250B /* BindingView1.swift */; };
 		F5BC9FEC2C1B1E98003D250B /* BindingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC9FEB2C1B1E98003D250B /* BindingView2.swift */; };
 		F5BC9FEF2C1B1FF5003D250B /* StateViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC9FEE2C1B1FF5003D250B /* StateViewMain.swift */; };
+		F5BC9FF22C1C7799003D250B /* StateMainGreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC9FF12C1C7799003D250B /* StateMainGreetingView.swift */; };
+		F5BC9FF42C1C77AD003D250B /* GreetingBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC9FF32C1C77AD003D250B /* GreetingBindingView.swift */; };
+		F5BC9FF62C1C790D003D250B /* ColorBackGroundPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC9FF52C1C790D003D250B /* ColorBackGroundPickerView.swift */; };
+		F5BC9FF82C1C7F66003D250B /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC9FF72C1C7F66003D250B /* SettingView.swift */; };
+		F5BCA0082C21AFF3003D250B /* ModelViewMVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BCA0072C21AFF3003D250B /* ModelViewMVP.swift */; };
+		F5BCA00A2C21B003003D250B /* ViewMVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BCA0092C21B003003D250B /* ViewMVP.swift */; };
+		F5BCA00C2C21B020003D250B /* PresenterMVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BCA00B2C21B020003D250B /* PresenterMVP.swift */; };
 		F5E3D4BB2C088ADE00EFD469 /* NavigationViewAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D4BA2C088ADE00EFD469 /* NavigationViewAdvanced.swift */; };
 		F5E3D4BD2C088E3900EFD469 /* CounterAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D4BC2C088E3900EFD469 /* CounterAppView.swift */; };
 		F5E3D5122C09F91700EFD469 /* ControlGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */; };
@@ -72,6 +79,13 @@
 		F5BC9FE92C1B1E8B003D250B /* BindingView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView1.swift; sourceTree = "<group>"; };
 		F5BC9FEB2C1B1E98003D250B /* BindingView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView2.swift; sourceTree = "<group>"; };
 		F5BC9FEE2C1B1FF5003D250B /* StateViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewMain.swift; sourceTree = "<group>"; };
+		F5BC9FF12C1C7799003D250B /* StateMainGreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMainGreetingView.swift; sourceTree = "<group>"; };
+		F5BC9FF32C1C77AD003D250B /* GreetingBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingBindingView.swift; sourceTree = "<group>"; };
+		F5BC9FF52C1C790D003D250B /* ColorBackGroundPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBackGroundPickerView.swift; sourceTree = "<group>"; };
+		F5BC9FF72C1C7F66003D250B /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		F5BCA0072C21AFF3003D250B /* ModelViewMVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewMVP.swift; sourceTree = "<group>"; };
+		F5BCA0092C21B003003D250B /* ViewMVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMVP.swift; sourceTree = "<group>"; };
+		F5BCA00B2C21B020003D250B /* PresenterMVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterMVP.swift; sourceTree = "<group>"; };
 		F5E3D4BA2C088ADE00EFD469 /* NavigationViewAdvanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewAdvanced.swift; sourceTree = "<group>"; };
 		F5E3D4BC2C088E3900EFD469 /* CounterAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAppView.swift; sourceTree = "<group>"; };
 		F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupView.swift; sourceTree = "<group>"; };
@@ -178,6 +192,8 @@
 				F5E3D5172C0E695500EFD469 /* AdvancedChartView.swift */,
 				F53CDD352C11CC36002259B3 /* ColorPickerView.swift */,
 				F53CDD372C11CD56002259B3 /* DataPickerView.swift */,
+				F5BCA0062C21AFD7003D250B /* MVP */,
+				F5BC9FF02C1C776B003D250B /* GreetingBinding */,
 				F5BC9FED2C1B1E9B003D250B /* BindingViews */,
 			);
 			path = Views;
@@ -192,6 +208,27 @@
 				F5BC9FEE2C1B1FF5003D250B /* StateViewMain.swift */,
 			);
 			path = BindingViews;
+			sourceTree = "<group>";
+		};
+		F5BC9FF02C1C776B003D250B /* GreetingBinding */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC9FF12C1C7799003D250B /* StateMainGreetingView.swift */,
+				F5BC9FF32C1C77AD003D250B /* GreetingBindingView.swift */,
+				F5BC9FF52C1C790D003D250B /* ColorBackGroundPickerView.swift */,
+				F5BC9FF72C1C7F66003D250B /* SettingView.swift */,
+			);
+			path = GreetingBinding;
+			sourceTree = "<group>";
+		};
+		F5BCA0062C21AFD7003D250B /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				F5BCA0072C21AFF3003D250B /* ModelViewMVP.swift */,
+				F5BCA0092C21B003003D250B /* ViewMVP.swift */,
+				F5BCA00B2C21B020003D250B /* PresenterMVP.swift */,
+			);
+			path = MVP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,11 +365,15 @@
 				F56434222C029AB5004DACBC /* ScrollViewReaderAdvanced.swift in Sources */,
 				F5BC9FEA2C1B1E8B003D250B /* BindingView1.swift in Sources */,
 				F5BC9FEC2C1B1E98003D250B /* BindingView2.swift in Sources */,
+				F5BCA0082C21AFF3003D250B /* ModelViewMVP.swift in Sources */,
+				F5BC9FF82C1C7F66003D250B /* SettingView.swift in Sources */,
 				F5BC9FEF2C1B1FF5003D250B /* StateViewMain.swift in Sources */,
 				F527FD452BF628F400BD5B14 /* ContentView.swift in Sources */,
 				F5E3D5142C0E2F5700EFD469 /* Buttons.swift in Sources */,
 				F53CDD382C11CD56002259B3 /* DataPickerView.swift in Sources */,
+				F5BCA00C2C21B020003D250B /* PresenterMVP.swift in Sources */,
 				F564341B2BFE6F36004DACBC /* Task#1.swift in Sources */,
+				F5BC9FF22C1C7799003D250B /* StateMainGreetingView.swift in Sources */,
 				F5BC9FE82C1B1E7F003D250B /* ContentViewBinding.swift in Sources */,
 				F5E3D5182C0E695500EFD469 /* AdvancedChartView.swift in Sources */,
 				F5E3D4BD2C088E3900EFD469 /* CounterAppView.swift in Sources */,
@@ -340,8 +381,11 @@
 				F5E3D5162C0E37DE00EFD469 /* SimpleChartView.swift in Sources */,
 				F53CDD362C11CC36002259B3 /* ColorPickerView.swift in Sources */,
 				F564341E2C00AF0D004DACBC /* Task#2.swift in Sources */,
+				F5BC9FF42C1C77AD003D250B /* GreetingBindingView.swift in Sources */,
 				F56434202C029678004DACBC /* ScrollViewReaderToItem.swift in Sources */,
 				F5E3D5122C09F91700EFD469 /* ControlGroupView.swift in Sources */,
+				F5BC9FF62C1C790D003D250B /* ColorBackGroundPickerView.swift in Sources */,
+				F5BCA00A2C21B003003D250B /* ViewMVP.swift in Sources */,
 				F56434242C048CE3004DACBC /* ScrollViewReaderAdvanced2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

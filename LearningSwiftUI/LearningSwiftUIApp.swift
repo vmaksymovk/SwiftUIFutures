@@ -10,8 +10,10 @@ import SwiftUI
 @main
 struct LearningSwiftUIApp: App {
     var body: some Scene {
+        let model = CounterModel()
+        let presenter = CounterPresenter(count: 0, model: model)
         WindowGroup {
-            ContentViewBinding()
+            ViewMVP(presenter: presenter)
         }
     }
 }
