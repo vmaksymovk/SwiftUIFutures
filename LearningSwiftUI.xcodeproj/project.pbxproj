@@ -32,12 +32,17 @@
 		F5BCA0082C21AFF3003D250B /* ModelViewMVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BCA0072C21AFF3003D250B /* ModelViewMVP.swift */; };
 		F5BCA00A2C21B003003D250B /* ViewMVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BCA0092C21B003003D250B /* ViewMVP.swift */; };
 		F5BCA00C2C21B020003D250B /* PresenterMVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BCA00B2C21B020003D250B /* PresenterMVP.swift */; };
+		F5C36F782C2AD9ED004DC42B /* BindingShortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C36F772C2AD9ED004DC42B /* BindingShortView.swift */; };
+		F5C36F7A2C2AD9FA004DC42B /* StateShortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C36F792C2AD9FA004DC42B /* StateShortView.swift */; };
 		F5E3D4BB2C088ADE00EFD469 /* NavigationViewAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D4BA2C088ADE00EFD469 /* NavigationViewAdvanced.swift */; };
 		F5E3D4BD2C088E3900EFD469 /* CounterAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D4BC2C088E3900EFD469 /* CounterAppView.swift */; };
 		F5E3D5122C09F91700EFD469 /* ControlGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */; };
 		F5E3D5142C0E2F5700EFD469 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5132C0E2F5700EFD469 /* Buttons.swift */; };
 		F5E3D5162C0E37DE00EFD469 /* SimpleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5152C0E37DE00EFD469 /* SimpleChartView.swift */; };
 		F5E3D5182C0E695500EFD469 /* AdvancedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3D5172C0E695500EFD469 /* AdvancedChartView.swift */; };
+		F5F1F1D22C2C54B500A8060E /* MVPAdvancedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F1F1D12C2C54B500A8060E /* MVPAdvancedView.swift */; };
+		F5F1F1D42C2C54C500A8060E /* ModelAdvancedMVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F1F1D32C2C54C500A8060E /* ModelAdvancedMVP.swift */; };
+		F5F1F1D62C2C54E100A8060E /* PresenterAdvancedMVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F1F1D52C2C54E100A8060E /* PresenterAdvancedMVP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,12 +91,17 @@
 		F5BCA0072C21AFF3003D250B /* ModelViewMVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewMVP.swift; sourceTree = "<group>"; };
 		F5BCA0092C21B003003D250B /* ViewMVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMVP.swift; sourceTree = "<group>"; };
 		F5BCA00B2C21B020003D250B /* PresenterMVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterMVP.swift; sourceTree = "<group>"; };
+		F5C36F772C2AD9ED004DC42B /* BindingShortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingShortView.swift; sourceTree = "<group>"; };
+		F5C36F792C2AD9FA004DC42B /* StateShortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateShortView.swift; sourceTree = "<group>"; };
 		F5E3D4BA2C088ADE00EFD469 /* NavigationViewAdvanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewAdvanced.swift; sourceTree = "<group>"; };
 		F5E3D4BC2C088E3900EFD469 /* CounterAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAppView.swift; sourceTree = "<group>"; };
 		F5E3D5112C09F91700EFD469 /* ControlGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupView.swift; sourceTree = "<group>"; };
 		F5E3D5132C0E2F5700EFD469 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		F5E3D5152C0E37DE00EFD469 /* SimpleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleChartView.swift; sourceTree = "<group>"; };
 		F5E3D5172C0E695500EFD469 /* AdvancedChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedChartView.swift; sourceTree = "<group>"; };
+		F5F1F1D12C2C54B500A8060E /* MVPAdvancedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPAdvancedView.swift; sourceTree = "<group>"; };
+		F5F1F1D32C2C54C500A8060E /* ModelAdvancedMVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelAdvancedMVP.swift; sourceTree = "<group>"; };
+		F5F1F1D52C2C54E100A8060E /* PresenterAdvancedMVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterAdvancedMVP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +188,7 @@
 		F564341C2BFE6F49004DACBC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F5C36F762C2AD9D6004DC42B /* ShortExampleBinding */,
 				F527FD442BF628F400BD5B14 /* ContentView.swift */,
 				F564341A2BFE6F36004DACBC /* Task#1.swift */,
 				F564341D2C00AF0D004DACBC /* Task#2.swift */,
@@ -192,6 +203,7 @@
 				F5E3D5172C0E695500EFD469 /* AdvancedChartView.swift */,
 				F53CDD352C11CC36002259B3 /* ColorPickerView.swift */,
 				F53CDD372C11CD56002259B3 /* DataPickerView.swift */,
+				F5F1F1D02C2C549600A8060E /* MVPAdvanced */,
 				F5BCA0062C21AFD7003D250B /* MVP */,
 				F5BC9FF02C1C776B003D250B /* GreetingBinding */,
 				F5BC9FED2C1B1E9B003D250B /* BindingViews */,
@@ -229,6 +241,25 @@
 				F5BCA00B2C21B020003D250B /* PresenterMVP.swift */,
 			);
 			path = MVP;
+			sourceTree = "<group>";
+		};
+		F5C36F762C2AD9D6004DC42B /* ShortExampleBinding */ = {
+			isa = PBXGroup;
+			children = (
+				F5C36F772C2AD9ED004DC42B /* BindingShortView.swift */,
+				F5C36F792C2AD9FA004DC42B /* StateShortView.swift */,
+			);
+			path = ShortExampleBinding;
+			sourceTree = "<group>";
+		};
+		F5F1F1D02C2C549600A8060E /* MVPAdvanced */ = {
+			isa = PBXGroup;
+			children = (
+				F5F1F1D12C2C54B500A8060E /* MVPAdvancedView.swift */,
+				F5F1F1D32C2C54C500A8060E /* ModelAdvancedMVP.swift */,
+				F5F1F1D52C2C54E100A8060E /* PresenterAdvancedMVP.swift */,
+			);
+			path = MVPAdvanced;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,13 +395,16 @@
 				F5E3D4BB2C088ADE00EFD469 /* NavigationViewAdvanced.swift in Sources */,
 				F56434222C029AB5004DACBC /* ScrollViewReaderAdvanced.swift in Sources */,
 				F5BC9FEA2C1B1E8B003D250B /* BindingView1.swift in Sources */,
+				F5F1F1D62C2C54E100A8060E /* PresenterAdvancedMVP.swift in Sources */,
 				F5BC9FEC2C1B1E98003D250B /* BindingView2.swift in Sources */,
 				F5BCA0082C21AFF3003D250B /* ModelViewMVP.swift in Sources */,
 				F5BC9FF82C1C7F66003D250B /* SettingView.swift in Sources */,
 				F5BC9FEF2C1B1FF5003D250B /* StateViewMain.swift in Sources */,
+				F5C36F782C2AD9ED004DC42B /* BindingShortView.swift in Sources */,
 				F527FD452BF628F400BD5B14 /* ContentView.swift in Sources */,
 				F5E3D5142C0E2F5700EFD469 /* Buttons.swift in Sources */,
 				F53CDD382C11CD56002259B3 /* DataPickerView.swift in Sources */,
+				F5C36F7A2C2AD9FA004DC42B /* StateShortView.swift in Sources */,
 				F5BCA00C2C21B020003D250B /* PresenterMVP.swift in Sources */,
 				F564341B2BFE6F36004DACBC /* Task#1.swift in Sources */,
 				F5BC9FF22C1C7799003D250B /* StateMainGreetingView.swift in Sources */,
@@ -380,8 +414,10 @@
 				F527FD432BF628F400BD5B14 /* LearningSwiftUIApp.swift in Sources */,
 				F5E3D5162C0E37DE00EFD469 /* SimpleChartView.swift in Sources */,
 				F53CDD362C11CC36002259B3 /* ColorPickerView.swift in Sources */,
+				F5F1F1D42C2C54C500A8060E /* ModelAdvancedMVP.swift in Sources */,
 				F564341E2C00AF0D004DACBC /* Task#2.swift in Sources */,
 				F5BC9FF42C1C77AD003D250B /* GreetingBindingView.swift in Sources */,
+				F5F1F1D22C2C54B500A8060E /* MVPAdvancedView.swift in Sources */,
 				F56434202C029678004DACBC /* ScrollViewReaderToItem.swift in Sources */,
 				F5E3D5122C09F91700EFD469 /* ControlGroupView.swift in Sources */,
 				F5BC9FF62C1C790D003D250B /* ColorBackGroundPickerView.swift in Sources */,
