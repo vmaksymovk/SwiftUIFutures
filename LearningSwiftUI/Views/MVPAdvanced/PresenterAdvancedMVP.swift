@@ -1,28 +1,33 @@
-
 import Foundation
 
-class CounterPresenterAdvanced : ObservableObject {
-    @Published private(set) var count : Int = 0
-    private var model : modelCounterAdvanced
-    
-    init(count: Int, model: modelCounterAdvanced) {
-        self.count = count
+class TodoPresenter: ObservableObject {
+    @Published var items: [TodoItem] = []
+    private var model: TodoModel
+
+    init(model: TodoModel) {
         self.model = model
+        self.items = model.items
     }
-    
-    func increment(){
-        print("Model Updated!")
-        model.count += 1
-        
-        print("Presenter Updated!")
-        count = model.count
+
+    func addItem(title: String) {
+        let newItem = TodoItem(title: title)
+        model.items.append(newItem)
+        updateItems()
     }
-    
-    func decriment(){
-        print("Model Updated!")
-        model.count -= 1
-        
-        print("Presenter Updated!")
-        count = model.count
+
+    func removeItem(at index: Int) {
+        model.items.remove(at: index)
+        updateItems()
+    }
+
+    func toggleCompletion(for item: TodoItem) {
+        if let index = model.items.firstIndex(where: { $0.id == item.id }) {
+            model.items[index].isCompleted.toggle()
+            updateItems()
+        }
+    }
+
+    private func updateItems() {
+        items = model.items
     }
 }

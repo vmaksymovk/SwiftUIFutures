@@ -3,45 +3,55 @@
 import SwiftUI
 
 struct MVPAdvancedView: View {
-    @ObservedObject var presenter : CounterPresenterAdvanced
+    @ObservedObject var presenter: TodoPresenter
+    @State private var newTaskTitle: String = ""
+    
     var body: some View {
-        VStack{
-            Text("\(presenter.count)")
-                .font(.largeTitle)
+        VStack {
+            HStack {
+                TextField("New task", text: $newTaskTitle)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .padding()
+                Button(action: {
+                    presenter.addItem(title: newTaskTitle)
+                    newTaskTitle = ""
+                }) {
+                    Text("Add")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
                 .padding()
-                .background(
-                    RoundedRectangle(cornerRadius: 30)
-                        .fill(presenter.count > 10 ? .green : .orange)
-                )
-            
-            HStack{
-                Button("-") {
-                    presenter.decriment()
-                }
-                .padding(25)
-                .font(.largeTitle)
-                .background(
-                    Circle()
-                        .fill(.red)
-                        .opacity(0.4)
-                )
-                .offset(x: -40, y: 20)
-                Button("+") {
-                    presenter.increment()
-                }
-                .padding(20)
-                .font(.largeTitle)
-                .background(
-                    Circle()
-                        .fill(.green)
-                        .opacity(0.4)
-                )
-                .offset(x: 40, y: 20)
             }
+            
+            List {
+                ForEach(presenter.items) { item in
+                    HStack {
+                        Text(item.title)
+                            .strikethrough(item.isCompleted)
+                        Spacer()
+                        Button(action: {
+                            presenter.toggleCompletion(for: item)
+                        }) {
+                            Image(systemName: item.isCompleted ? "checkmark.circle.fill" : "circle")
+                                .foregroundColor(item.isCompleted ? .green : .gray)
+                        }
+                        .buttonStyle(BorderlessButtonStyle())
+                    }
+                }
+                .onDelete(perform: delete)
+            }
+        }
+    }
+    
+    private func delete(at offsets: IndexSet) {
+        offsets.forEach { index in
+            presenter.removeItem(at: index)
         }
     }
 }
 
 #Preview {
-    MVPAdvancedView(presenter: CounterPresenterAdvanced(count: 0, model: modelCounterAdvanced()))
+    MVPAdvancedView(presenter: TodoPresenter(model: TodoModel()))
 }
